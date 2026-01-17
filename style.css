@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #E3E6E6;
+}
+
+/* :root {
+    --primary-font: 
+    --secondary-font:
+
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131921;
+    padding: 12px 20px 8px 30px;
+}
+
+.nav__logo {
+    width: 67%;
+}
+
+.nav__location {
+    display: flex;
+    align-items: end;
+    font-size: 1.3rem;
+    color: #fff;
+    padding-bottom: 10px;
+    gap: 3px;
+}
+
+.nav__location img {
+    width: 18px;
+}
+
+.nav__location p {
+    color: #c4c4c4;
+}
+
+.nav__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background: #fff;
+    color: gray;
+    max-width: 1000px;
+    border-radius: 4px;
+}
+
+.search__dropdown {
+    display: flex;
+    align-items: center;
+    padding: 14px 0 15px 14px;
+    gap: 10px;
+    background-color: #e5e5e5;
+    border-radius: 4px 0 0 4px;
+}
+
+.search__dropdown p {
+    font-size: 1.3rem;
+}
+
+.search__dropdown img {
+    width: 16%;
+}
+
+.search__input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.search__icon {
+    max-width: 45px;
+    padding: 8px;
+    background-color: #ffd64f;
+    border: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.nav__language {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.language__flag {
+    width: 18%;
+    margin-left: 25px;
+}
+
+.language__dropdown {
+    position: relative;
+    top: 2px;
+    width: 6%;
+}
+
+.nav__account,
+.nav__orders {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.account__dropdown {
+    width: 5%;
+    margin-left: 2px;
+}
+
+.nav__orders {
+    margin-left: 15px;
+}
+
+.nav__cart {
+    display: flex;
+    align-items: end;
+    margin: 0px 15px;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.nav__cart img {
+    width: 35%;
+}
